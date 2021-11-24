@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Apple Store</title>
+  <!-- Just adding fonts to my site -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  <!-- Added icons -->
+  <link rel="icon" href="icons/apple.png">
+  <!-- Added Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Linked an Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Linked an icons through fontawesome -->
+  <script src="https://kit.fontawesome.com/1c4557b257.js" crossorigin="anonymous"></script>
+  <!-- Added bootstrap scripts for navigation bar -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+</head>
+<body>
+  <!-- nav bar -->
+  <section id="title">
+    <div class="container-fluid">
+      <!-- Designed an navbar using bootstrap concept -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href=""><i class="fab fa-apple"></i> Apple Store</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Accessories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Download</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Title -->
+      <div class="row">
+        <!-- Used an grid concept to make an view to compatible in all devices-->
+        <div class="col-lg-6">
+          <h1>Think Different</h1>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download
+          </button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i>
+            Download </button>
+        </div>
+        <div class="col-lg-6">
+          <img class="title-image" src="images/xs.png" alt="iphone-mockup">
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Features -->
+  <!-- Designed using an grid concept to make compatible view in all devices  -->
+  <section id="features">
+    <!-- row class is used to make all the content in order -->
+    <div class="row">
+      <div class="feature-box col-lg-4">
+        <i class="fas fas-0 fa-users-cog fa-4x"></i>
+        <h3>Features</h3>
+        <p>The iPhone is designed to help you manage every aspect of your professional life.</p>
+      </div>
+      <div class="feature-box col-lg-4">
+        <i class="fas fas-1 fa-mobile-alt fa-4x"></i>
+        <h3>Convenience</h3>
+        <p>The iPhone combines multiple devices into one small package, eliminating the need to purchase each item
+          separately.</p>
+      </div>
+      <div class="feature-box col-lg-4">
+        <i class="fas fas-2 fa-cog fa-4x"></i>
+        <h3>Integration</h3>
+        <p>The iPhone integrates seamlessly into your computing system, whether or not you use Apple products.</p>
+      </div>
+    </div>
+  </section>
+  <!-- Testimonials -->
+  <!-- Designed carousells using bootstrap to make an slide view and used grid concept to make an view portability to compatible in all devices -->
+  <section id="testimonials">
+    <div id="testimonials-carousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>You didn't really ask for it so here you go.</h2>
+          <img src="images/watch.png" alt="watch" class="watch">
+          <em>
+            <p>Apple Watch SE GPS - 44 mm Space Gray Aluminium Case with Black Sport Band</p>Apple Watch
+          </em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">Charge Wirelessly.Use Tirelessly</h2>
+          <img class="airpods" src="images/pods.png" alt="airpods">
+          <em>
+            <p>The Wireless Charging Case keeps you and your Airpods Pro on the go.</p>Apple airpods
+          </em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">“A touch of genius.”</h2>
+          <img class="mac" src="images/mac.png">
+          <em>
+            <p>Macbook pro with retina display</p>Macbook-Pro
+          </em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonials-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#testimonials-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+  <!-- Press -->
+  <!-- i used section tag to make an page section wise -->
+  <section id="press">
+    <p style="color:black;">Our Products Available at these stores</p>
+    <img src="images/flipkart.png" alt="flipkart" width="15%">
+    <img src="images/amazon.png" alt="amazon" width="14%" class="amazon">
+    <img src="images/rl.png" alt="reliance-digital" width="14%" class="rl">
+    <img src="images/ebay.png" alt="ebay" class="ebay" width="13%">
+  </section>
+  <!-- Pricing -->
+  <!-- used card and grid concept to make an card -->
+  <section id="pricing">
+    <h2 class="shop">Shop All iphone accessories</h2>
+    <div class="row">
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <i class="fas truck fa-truck fa-3x"></i>
+            <h3>Free Delivery</h3>
+          </div>
+          <div class="card-body">
+            <p>Buy Online and get free no-contact delivery.</p>
+            <button type="button" class="btn btn-primary">Learn More</button>
+          </div>
+        </div>
+      </div>
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <i class="fas inr fa-rupee-sign fa-3x"></i>
+            <h3>Ways to buy</h3>
+          </div>
+          <div class="card-body">
+            <p>Choose the way that’s right for you.</p>
+            <button type="button" class="btn btn-outline-primary">Learn More</button>
+          </div>
+        </div>
+      </div>
+      <div class="pricing-column col-lg-4 col-md-3">
+        <div class="card">
+          <div class="card-header">
+            <i class="fas hands fa-hands-helping fa-3x"></i>
+            <h3>Get help buying</h3>
+          </div>
+          <div class="card-body">
+            <p>Call a Specialist or chat online.Call 000800 040 1966.</p>
+            <button type="button" class="btn btn-outline-info">Contact-us</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Call to Action -->
+  <section id="cta">
+    <h3 class="cta">Find the Perfect Iphone and accessories here.</h3>
+    <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+    <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i>
+      Download</button>
+  </section>
+  <!-- Footer -->
+  <footer id="footer">
+    <i class="fab twitter fa-twitter"></i>
+    <i class="fab facebook fa-facebook"></i>
+    <i class="fab instagram fa-instagram"></i>
+    <i class="fas envelope fa-envelope"></i>
+    <p>© Copyright 2022 Dinesh</p>
+  </footer>
+</body>
+</html>
